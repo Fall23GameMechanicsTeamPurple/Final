@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: CardScript
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":74.5744,"y":-335.4596},"zoom":1.0,"elements":[{"argumentCount":2,"coroutine":false,"defaultValues":{"target":null,"name":{"$content":"Create","$type":"System.String"}},"position":{"x":-317.0,"y":-365.0},"guid":"7cd60e70-b398-4761-aa81-5f64b67b55e3","$version":"A","$type":"Unity.VisualScripting.CustomEvent","$id":"9"},{"kind":"Object","defaultValues":{"name":{"$content":"CardInfo","$type":"System.String"},"object":null},"position":{"x":2.0,"y":-445.0},"guid":"f3fc428c-a2ac-4d2a-93a6-f9b90c3b2d3f","$version":"A","$type":"Unity.VisualScripting.SetVariable","$id":"11"},{"chainable":false,"member":{"name":"position","parameterTypes":null,"targetType":"UnityEngine.Transform","targetTypeName":"UnityEngine.Transform","$version":"A"},"defaultValues":{"target":null,"input":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"}},"position":{"x":282.0,"y":-345.0},"guid":"2add0a78-e333-41c1-a6d8-bd2b98471a9b","$version":"A","$type":"Unity.VisualScripting.SetMember","$id":"13"},{"member":{"name":"position","parameterTypes":null,"targetType":"UnityEngine.Transform","targetTypeName":"UnityEngine.Transform","$version":"A"},"defaultValues":{"target":null},"position":{"x":-6.0,"y":-264.0},"guid":"a281cd60-25a1-424d-98e6-9b53f10c30ad","$version":"A","$type":"Unity.VisualScripting.GetMember","$id":"16"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"assign","guid":"81dcfddd-aa5d-4829-b4e0-7cc559e8a1ae","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"assigned","destinationUnit":{"$ref":"13"},"destinationKey":"assign","guid":"5438dcaf-a5f4-43dd-a22a-2c03a4c436ac","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"9"},"sourceKey":"argument_0","destinationUnit":{"$ref":"11"},"destinationKey":"input","guid":"b9c82920-a679-4182-940b-36c4d8f65540","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"9"},"sourceKey":"argument_1","destinationUnit":{"$ref":"16"},"destinationKey":"target","guid":"1527cdf0-8e05-4a7c-b589-cfa823e1e560","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"value","destinationUnit":{"$ref":"13"},"destinationKey":"input","guid":"634933ba-8143-49c3-b56c-ac4ac6ca67e1","$type":"Unity.VisualScripting.ValueConnection"},{"position":{"xMin":-356.4998,"yMin":-504.0,"xMax":460.5003,"yMax":-151.4999},"label":"Create(Card
+      cardInfo, Transform position)","comment":null,"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"guid":"e7fc0df7-2c27-4980-a821-9bf3c02f7a7a","$version":"A","$type":"Unity.VisualScripting.GraphGroup"}],"$version":"A"}}'
+    _objectReferences: []

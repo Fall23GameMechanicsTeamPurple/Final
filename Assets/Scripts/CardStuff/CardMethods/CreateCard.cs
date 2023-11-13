@@ -28,6 +28,9 @@ public class CreateCard : Unit
     public ValueInput cardType;
 
     [DoNotSerialize]
+    public ValueInput playable;
+
+    [DoNotSerialize]
     public ValueOutput card;
 
     private Card result;
@@ -41,7 +44,8 @@ public class CreateCard : Unit
             result.Image = flow.GetValue<Sprite>(image);
             result.Costs = flow.GetValue<List<int>>(costs);
             result.CardType = flow.GetValue<CardType>(cardType);
-          
+            result.Playable = true;
+         
             return outputTrigger;
         
         });
@@ -52,6 +56,7 @@ public class CreateCard : Unit
         image = ValueInput<Sprite>("Image", null);
         costs = ValueInput<List<int>>("Costs", new List<int>());
         cardType = ValueInput<CardType>("CardType", CardType.Tower);
+        playable = ValueInput<bool>("Playable", true);
 
         card = ValueOutput<Card>("Card", (flow) =>
         {

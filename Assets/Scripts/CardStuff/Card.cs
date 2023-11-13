@@ -27,6 +27,9 @@ public class Card
 
     [Inspectable]
     public CardType CardType { get; set; }
+
+    [Inspectable]
+    public bool Playable { get; set; }
 }
 
 
