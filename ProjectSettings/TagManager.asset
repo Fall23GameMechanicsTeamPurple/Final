@@ -6,15 +6,16 @@ TagManager:
   tags:
   - Turret
   - Enemy
+  - Obstacle
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Base
   - Water
   - UI
-  - 
-  - 
+  - Obstacle
+  - Floor
   - 
   - 
   - 
@@ -42,4 +43,13 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Enemy
+    uniqueID: 1940077507
+    locked: 0
+  - name: Tower
+    uniqueID: 2724636411
+    locked: 0
+  - name: Base
+    uniqueID: 4244708023
     locked: 0
