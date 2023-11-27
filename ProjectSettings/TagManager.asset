@@ -50,6 +50,12 @@ TagManager:
   - name: Tower
     uniqueID: 2724636411
     locked: 0
+  - name: Water
+    uniqueID: 2413219575
+    locked: 0
+  - name: Obstacle
+    uniqueID: 3776047075
+    locked: 0
   - name: Base
     uniqueID: 4244708023
     locked: 0
