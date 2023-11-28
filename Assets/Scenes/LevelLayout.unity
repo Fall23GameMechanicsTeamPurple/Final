@@ -776,6 +776,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player_Base
       objectReference: {fileID: 0}
+    - target: {fileID: 5760780116858898549, guid: f398a79e224c86547bcc68ff6c221469, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"baseHP","value":{"$content":25.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
     - target: {fileID: 8563426847495960558, guid: f398a79e224c86547bcc68ff6c221469, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.191958
