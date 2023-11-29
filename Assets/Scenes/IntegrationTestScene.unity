@@ -237,6 +237,7 @@ GameObject:
   m_Component:
   - component: {fileID: 351332796}
   - component: {fileID: 351332797}
+  - component: {fileID: 351332798}
   m_Layer: 0
   m_Name: Obsticle2
   m_TagString: Untagged
@@ -311,6 +312,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &351332798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 351332795}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9809bf1345abc5648af68b3a82653f08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 1
+  m_Area: 1
+  m_IgnoreFromBuild: 0
+  m_AffectedAgents: ffffffff
 --- !u!1 &384549749
 GameObject:
   m_ObjectHideFlags: 0
@@ -321,7 +338,6 @@ GameObject:
   m_Component:
   - component: {fileID: 384549750}
   - component: {fileID: 384549751}
-  - component: {fileID: 384549752}
   m_Layer: 0
   m_Name: Player_Base
   m_TagString: Untagged
@@ -396,22 +412,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &384549752
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 384549749}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9809bf1345abc5648af68b3a82653f08, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_OverrideArea: 1
-  m_Area: 1
-  m_IgnoreFromBuild: 0
-  m_AffectedAgents: ffffffff
 --- !u!1 &386715717 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1274709757799716965, guid: a9dc0f07ab9d3704cb4b7e7b9b67a3d5, type: 3}
@@ -427,6 +427,7 @@ GameObject:
   m_Component:
   - component: {fileID: 699740120}
   - component: {fileID: 699740121}
+  - component: {fileID: 699740122}
   m_Layer: 0
   m_Name: Obstacle3
   m_TagString: Untagged
@@ -501,6 +502,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &699740122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 699740119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9809bf1345abc5648af68b3a82653f08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 1
+  m_Area: 1
+  m_IgnoreFromBuild: 0
+  m_AffectedAgents: ffffffff
 --- !u!1001 &738789884
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -515,23 +532,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6612768730476151215, guid: a9dc0f07ab9d3704cb4b7e7b9b67a3d5, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6612768730476151215, guid: a9dc0f07ab9d3704cb4b7e7b9b67a3d5, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6612768730476151215, guid: a9dc0f07ab9d3704cb4b7e7b9b67a3d5, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6612768730476151215, guid: a9dc0f07ab9d3704cb4b7e7b9b67a3d5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.88
+      value: -14.9
       objectReference: {fileID: 0}
     - target: {fileID: 6612768730476151215, guid: a9dc0f07ab9d3704cb4b7e7b9b67a3d5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.59
+      value: -18.38
       objectReference: {fileID: 0}
     - target: {fileID: 6612768730476151215, guid: a9dc0f07ab9d3704cb4b7e7b9b67a3d5, type: 3}
       propertyPath: m_LocalPosition.z
@@ -596,7 +613,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 1}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 33725748}
@@ -729,7 +746,7 @@ Camera:
   far clip plane: 1000
   field of view: 80
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 20
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -960,7 +977,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 869836846283831014, guid: f6ed346bbe71d9741801391e75fca864, type: 3}
       propertyPath: _data._json
-      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"poolSize","value":{"$content":10,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"poolSize","value":{"$content":3,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"poolPrefab","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"InactiveEnemies","value":{"$content":[],"$type":"Unity.VisualScripting.AotList"},"typeHandle":{"Identification":"Unity.VisualScripting.AotList,
         Unity.VisualScripting.Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"spawnPoints","value":{"$content":[{"$content":1,"$type":"UnityEngine.Object"},{"$content":2,"$type":"UnityEngine.Object"},{"$content":3,"$type":"UnityEngine.Object"}],"$type":"Unity.VisualScripting.AotList"},"typeHandle":{"Identification":"Unity.VisualScripting.AotList,
@@ -1010,15 +1027,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2724212531800916904, guid: f6ed346bbe71d9741801391e75fca864, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 8.6
       objectReference: {fileID: 0}
     - target: {fileID: 2724212531800916904, guid: f6ed346bbe71d9741801391e75fca864, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.47
+      value: -13.3
       objectReference: {fileID: 0}
     - target: {fileID: 2990384142144843579, guid: f6ed346bbe71d9741801391e75fca864, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.05
+      value: -15.84
       objectReference: {fileID: 0}
     - target: {fileID: 2990384142144843579, guid: f6ed346bbe71d9741801391e75fca864, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1026,11 +1043,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3290212232560741513, guid: f6ed346bbe71d9741801391e75fca864, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.46
+      value: 10.3
       objectReference: {fileID: 0}
     - target: {fileID: 3290212232560741513, guid: f6ed346bbe71d9741801391e75fca864, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.07
+      value: 12.1
       objectReference: {fileID: 0}
     - target: {fileID: 8030547822129629573, guid: f6ed346bbe71d9741801391e75fca864, type: 3}
       propertyPath: m_Name
@@ -1056,6 +1073,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1103502769}
   - component: {fileID: 1103502770}
+  - component: {fileID: 1103502771}
   m_Layer: 0
   m_Name: lake-and-river
   m_TagString: Untagged
@@ -1130,6 +1148,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1103502771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1103502768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9809bf1345abc5648af68b3a82653f08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 1
+  m_Area: 1
+  m_IgnoreFromBuild: 0
+  m_AffectedAgents: ffffffff
 --- !u!1001 &1229783948
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1342,6 +1376,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1357752928}
   - component: {fileID: 1357752929}
+  - component: {fileID: 1357752930}
   m_Layer: 0
   m_Name: Obstacle1
   m_TagString: Untagged
@@ -1416,6 +1451,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1357752930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1357752927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9809bf1345abc5648af68b3a82653f08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 1
+  m_Area: 1
+  m_IgnoreFromBuild: 0
+  m_AffectedAgents: ffffffff
 --- !u!1001 &1436673849
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1492,6 +1543,18 @@ PrefabInstance:
       value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 6268841228127562637, guid: e4a3dfc524576c64a875cce1cb5a088f, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 6268841228127562637, guid: e4a3dfc524576c64a875cce1cb5a088f, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 6268841228127562637, guid: e4a3dfc524576c64a875cce1cb5a088f, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 6268841228127562637, guid: e4a3dfc524576c64a875cce1cb5a088f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -1521,11 +1584,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6268841228127562637, guid: e4a3dfc524576c64a875cce1cb5a088f, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -7.38
+      value: -30.7
       objectReference: {fileID: 0}
     - target: {fileID: 6268841228127562637, guid: e4a3dfc524576c64a875cce1cb5a088f, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 2.93
+      value: 13.5
       objectReference: {fileID: 0}
     - target: {fileID: 6268841228127562637, guid: e4a3dfc524576c64a875cce1cb5a088f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1561,6 +1624,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1536584755}
   - component: {fileID: 1536584756}
+  - component: {fileID: 1536584757}
   m_Layer: 0
   m_Name: lake
   m_TagString: Untagged
@@ -1636,6 +1700,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1536584757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1536584754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9809bf1345abc5648af68b3a82653f08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 1
+  m_Area: 1
+  m_IgnoreFromBuild: 0
+  m_AffectedAgents: ffffffff
 --- !u!1 &1760281209 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2925460589369643971, guid: a9dc0f07ab9d3704cb4b7e7b9b67a3d5, type: 3}
@@ -1820,6 +1900,18 @@ PrefabInstance:
       value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 6268841228127562637, guid: e4a3dfc524576c64a875cce1cb5a088f, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 6268841228127562637, guid: e4a3dfc524576c64a875cce1cb5a088f, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 6268841228127562637, guid: e4a3dfc524576c64a875cce1cb5a088f, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 6268841228127562637, guid: e4a3dfc524576c64a875cce1cb5a088f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -1849,11 +1941,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6268841228127562637, guid: e4a3dfc524576c64a875cce1cb5a088f, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 7.35
+      value: 30.8
       objectReference: {fileID: 0}
     - target: {fileID: 6268841228127562637, guid: e4a3dfc524576c64a875cce1cb5a088f, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 2.91
+      value: 13.9
       objectReference: {fileID: 0}
     - target: {fileID: 6268841228127562637, guid: e4a3dfc524576c64a875cce1cb5a088f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
