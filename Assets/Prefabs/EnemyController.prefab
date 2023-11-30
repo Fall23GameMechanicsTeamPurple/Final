@@ -46,10 +46,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"enemyRef","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"spawnPointsRef","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
-    - {fileID: 3779273726586525953, guid: e11b83dd0e2f7f74aa5e58391dca32dd, type: 3}
+    - {fileID: 8030547822129629573, guid: f6ed346bbe71d9741801391e75fca864, type: 3}
 --- !u!114 &1236309838131168825
 MonoBehaviour:
   m_ObjectHideFlags: 0
