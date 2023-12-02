@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 public enum BulletTag
 {
-    KnockBack = 0,
+    Piercing = 0,
     Poison = 1,
     Explosion = 2,
 }
@@ -23,5 +23,11 @@ public class Bullet
     public float explosionRadius { get; set; }
 
     [Inspectable]
+    public int pierceCount { get; set; }
+
+    [Inspectable]
     public Dictionary<BulletTag, bool> tags { get; set; }
+
+    [Inspectable]
+    public float range { get; set; }
 }
