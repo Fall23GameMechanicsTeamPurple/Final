@@ -634,6 +634,84 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1274709757799716965, guid: a9dc0f07ab9d3704cb4b7e7b9b67a3d5, type: 3}
   m_PrefabInstance: {fileID: 738789884}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &492459395
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4062353289097160832, guid: 9689956b8d05f6344b3dbbd774e2ae4b, type: 3}
+      propertyPath: m_Name
+      value: TurretPlacementController
+      objectReference: {fileID: 0}
+    - target: {fileID: 5261169220263704930, guid: 9689956b8d05f6344b3dbbd774e2ae4b, type: 3}
+      propertyPath: m_SortingLayer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5261169220263704930, guid: 9689956b8d05f6344b3dbbd774e2ae4b, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5261169220263704930, guid: 9689956b8d05f6344b3dbbd774e2ae4b, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1476121015
+      objectReference: {fileID: 0}
+    - target: {fileID: 6343015928589986340, guid: 9689956b8d05f6344b3dbbd774e2ae4b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.0556855
+      objectReference: {fileID: 0}
+    - target: {fileID: 6343015928589986340, guid: 9689956b8d05f6344b3dbbd774e2ae4b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.85629416
+      objectReference: {fileID: 0}
+    - target: {fileID: 6343015928589986340, guid: 9689956b8d05f6344b3dbbd774e2ae4b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.062702365
+      objectReference: {fileID: 0}
+    - target: {fileID: 6343015928589986340, guid: 9689956b8d05f6344b3dbbd774e2ae4b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6343015928589986340, guid: 9689956b8d05f6344b3dbbd774e2ae4b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6343015928589986340, guid: 9689956b8d05f6344b3dbbd774e2ae4b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6343015928589986340, guid: 9689956b8d05f6344b3dbbd774e2ae4b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6343015928589986340, guid: 9689956b8d05f6344b3dbbd774e2ae4b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6343015928589986340, guid: 9689956b8d05f6344b3dbbd774e2ae4b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6343015928589986340, guid: 9689956b8d05f6344b3dbbd774e2ae4b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6931915712301958006, guid: 9689956b8d05f6344b3dbbd774e2ae4b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7466263806975822212, guid: 9689956b8d05f6344b3dbbd774e2ae4b, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"CanPlace","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9689956b8d05f6344b3dbbd774e2ae4b, type: 3}
 --- !u!1 &546122478 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3825866030055249288, guid: e320b97dda0363d48a3a1921134a0afd, type: 3}
@@ -2680,4 +2758,5 @@ SceneRoots:
   - {fileID: 1229783948}
   - {fileID: 992991340}
   - {fileID: 8470400775954238984}
+  - {fileID: 492459395}
   - {fileID: 274178445}
