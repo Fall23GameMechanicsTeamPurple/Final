@@ -2198,6 +2198,10 @@ PrefabInstance:
       propertyPath: '_data._objectReferences.Array.data[0]'
       value: 
       objectReference: {fileID: 8030547822623010955}
+    - target: {fileID: 6497790805917518779, guid: 04748c4d2f63c804483a070a9cf6e1c0, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[1]'
+      value: 
+      objectReference: {fileID: 546122478}
     - target: {fileID: 7984998434673130597, guid: 04748c4d2f63c804483a070a9cf6e1c0, type: 3}
       propertyPath: m_Name
       value: EnemyController
