@@ -486,6 +486,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1274709757799716965, guid: a9dc0f07ab9d3704cb4b7e7b9b67a3d5, type: 3}
   m_PrefabInstance: {fileID: 738789884}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &546122478 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3825866030055249288, guid: e320b97dda0363d48a3a1921134a0afd, type: 3}
+  m_PrefabInstance: {fileID: 1333628250}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &699740119
 GameObject:
   m_ObjectHideFlags: 0
@@ -942,6 +947,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6664372453053446667, guid: 6548965aa0190374d8d34f53f1dbdfa4, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Towers","value":{"$content":[],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"GameController","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6664372453053446667, guid: 6548965aa0190374d8d34f53f1dbdfa4, type: 3}
+      propertyPath: _data._objectReferences.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6664372453053446667, guid: 6548965aa0190374d8d34f53f1dbdfa4, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[0]'
+      value: 
+      objectReference: {fileID: 546122478}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
