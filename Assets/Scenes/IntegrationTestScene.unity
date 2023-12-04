@@ -1070,10 +1070,20 @@ MonoBehaviour:
     _json: '{"declarations":{"Kind":"Scene","collection":{"$content":[{"name":"activeEnemies","value":{"$content":[],"$type":"Unity.VisualScripting.AotList"},"typeHandle":{"Identification":"Unity.VisualScripting.AotList,
       Unity.VisualScripting.Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"DrawPile","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"DiscardPile","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"GCMODS","value":{"$content":[2,3],"$type":"System.Collections.Generic.List`1[[Unity.VisualScripting.ScriptGraphAsset,
+      Unity.VisualScripting.Flow, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[Unity.VisualScripting.ScriptGraphAsset,
+      Unity.VisualScripting.Flow, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"NMODS","value":{"$content":[4,5],"$type":"System.Collections.Generic.List`1[[Unity.VisualScripting.ScriptGraphAsset,
+      Unity.VisualScripting.Flow, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[Unity.VisualScripting.ScriptGraphAsset,
+      Unity.VisualScripting.Flow, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 1436673850}
     - {fileID: 2053222911}
+    - {fileID: 11400000, guid: edf3daba1d3ade74aa55da6df7f681fd, type: 2}
+    - {fileID: 11400000, guid: 22dcd026d3f1e9f48a3b711edfcfce46, type: 2}
+    - {fileID: 11400000, guid: 4846641fcad40204c887006bd6285bb3, type: 2}
+    - {fileID: 11400000, guid: 8fd8d34801193094c8ad86a2dae7b40d, type: 2}
 --- !u!4 &881870288
 Transform:
   m_ObjectHideFlags: 0
@@ -1710,24 +1720,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4109454265245240345, guid: 295ef1af49530264ebd327fb9cf2b8a6, type: 3}
       propertyPath: _data._json
-      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"CardPrefab","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"CanPlay","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"CanPlay","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"CardLeftMostPosition","value":{"x":-15.0,"y":-19.0,"$type":"UnityEngine.Vector2"},"typeHandle":{"Identification":"UnityEngine.Vector2,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"CardRightMostPosition","value":{"x":15.0,"y":-19.0,"$type":"UnityEngine.Vector2"},"typeHandle":{"Identification":"UnityEngine.Vector2,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"CardsPlayLimitEachTurn","value":{"$content":3,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"CardsDrawnEachTurn","value":{"$content":5,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"TextNumCardsPlayed","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"ButtonEndTurn","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"TextNumCardsPlayed","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"ButtonEndTurn","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 4109454265245240345, guid: 295ef1af49530264ebd327fb9cf2b8a6, type: 3}
       propertyPath: _data._objectReferences.Array.size
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 4109454265245240345, guid: 295ef1af49530264ebd327fb9cf2b8a6, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[0]'
+      value: 
+      objectReference: {fileID: 1119494622}
     - target: {fileID: 4109454265245240345, guid: 295ef1af49530264ebd327fb9cf2b8a6, type: 3}
       propertyPath: '_data._objectReferences.Array.data[1]'
       value: 
-      objectReference: {fileID: 1119494622}
+      objectReference: {fileID: 101432036}
     - target: {fileID: 4109454265245240345, guid: 295ef1af49530264ebd327fb9cf2b8a6, type: 3}
       propertyPath: '_data._objectReferences.Array.data[2]'
       value: 
@@ -1846,37 +1859,55 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1319000853471084233, guid: e4a3dfc524576c64a875cce1cb5a088f, type: 3}
-      propertyPath: m_SortingLayerID
-      value: -1476121015
-      objectReference: {fileID: 0}
     - target: {fileID: 2047182264870903023, guid: e4a3dfc524576c64a875cce1cb5a088f, type: 3}
       propertyPath: m_PresetInfoIsWorld
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5355523595133072020, guid: e4a3dfc524576c64a875cce1cb5a088f, type: 3}
       propertyPath: _data._json
-      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"LoCards","value":{"$content":[{"Name":"test1","Description":null,"Image":null,"Costs":[],"CardType":"Boost","Playable":false},{"Name":"test2","Description":null,"Image":null,"Costs":[],"CardType":"Boost","Playable":false},{"Name":"test3","Description":null,"Image":null,"Costs":[],"CardType":"Boost","Playable":false},{"Name":"test4","Description":null,"Image":null,"Costs":[],"CardType":"Boost","Playable":false},{"Name":"test5","Description":null,"Image":null,"Costs":[],"CardType":"Boost","Playable":false}],"$type":"System.Collections.Generic.List`1[[Card,
-        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[Card,
-        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"TextNumberCards","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"ButtonDraw","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"ButtonShuffle","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"CardManager","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"LoCards","value":{"$content":[{"$content":0,"$type":"UnityEngine.Object"},{"$content":1,"$type":"UnityEngine.Object"},{"$content":2,"$type":"UnityEngine.Object"},{"$content":3,"$type":"UnityEngine.Object"},{"$content":4,"$type":"UnityEngine.Object"}],"$type":"Unity.VisualScripting.AotList"},"typeHandle":{"Identification":"Unity.VisualScripting.AotList,
+        Unity.VisualScripting.Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"TextNumberCards","value":{"$content":5,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"ButtonDraw","value":{"$content":6,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"ButtonShuffle","value":{"$content":7,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"CardManager","value":{"$content":8,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 5355523595133072020, guid: e4a3dfc524576c64a875cce1cb5a088f, type: 3}
       propertyPath: _data._objectReferences.Array.size
-      value: 2
+      value: 9
       objectReference: {fileID: 0}
+    - target: {fileID: 5355523595133072020, guid: e4a3dfc524576c64a875cce1cb5a088f, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[0]'
+      value: 
+      objectReference: {fileID: 7590611864268705856, guid: e4947bafeb659ea408b229a209765a88, type: 3}
     - target: {fileID: 5355523595133072020, guid: e4a3dfc524576c64a875cce1cb5a088f, type: 3}
       propertyPath: '_data._objectReferences.Array.data[1]'
       value: 
-      objectReference: {fileID: 1229783949}
+      objectReference: {fileID: 7590611864268705856, guid: 93947e5a574a7f04ab6db6a0a74ee6bc, type: 3}
     - target: {fileID: 5355523595133072020, guid: e4a3dfc524576c64a875cce1cb5a088f, type: 3}
       propertyPath: '_data._objectReferences.Array.data[2]'
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 7590611864268705856, guid: 499a735980ac72b469c37f4912b7aaa0, type: 3}
+    - target: {fileID: 5355523595133072020, guid: e4a3dfc524576c64a875cce1cb5a088f, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[3]'
+      value: 
+      objectReference: {fileID: 7590611864268705856, guid: cbf8941b1a796e14fbc57255c335ea1e, type: 3}
+    - target: {fileID: 5355523595133072020, guid: e4a3dfc524576c64a875cce1cb5a088f, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[4]'
+      value: 
+      objectReference: {fileID: 7590611864268705856, guid: 5911c251a04e2c647848f1b870c6d64b, type: 3}
+    - target: {fileID: 5355523595133072020, guid: e4a3dfc524576c64a875cce1cb5a088f, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[5]'
+      value: 
+      objectReference: {fileID: 1436673853}
+    - target: {fileID: 5355523595133072020, guid: e4a3dfc524576c64a875cce1cb5a088f, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[6]'
+      value: 
+      objectReference: {fileID: 1436673852}
+    - target: {fileID: 5355523595133072020, guid: e4a3dfc524576c64a875cce1cb5a088f, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[8]'
+      value: 
+      objectReference: {fileID: 1229783949}
     - target: {fileID: 5731061721973783956, guid: e4a3dfc524576c64a875cce1cb5a088f, type: 3}
       propertyPath: m_Name
       value: DrawPIle
@@ -1973,16 +2004,32 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6269460278709270552, guid: e4a3dfc524576c64a875cce1cb5a088f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7531291402650789408, guid: e4a3dfc524576c64a875cce1cb5a088f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects:
-    - {fileID: 7531291402650789408, guid: e4a3dfc524576c64a875cce1cb5a088f, type: 3}
-    - {fileID: 6269460278709270552, guid: e4a3dfc524576c64a875cce1cb5a088f, type: 3}
+    m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e4a3dfc524576c64a875cce1cb5a088f, type: 3}
 --- !u!1 &1436673850 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5731061721973783956, guid: e4a3dfc524576c64a875cce1cb5a088f, type: 3}
+  m_PrefabInstance: {fileID: 1436673849}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1436673852 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7531291402650789408, guid: e4a3dfc524576c64a875cce1cb5a088f, type: 3}
+  m_PrefabInstance: {fileID: 1436673849}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1436673853 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 513100388748008122, guid: e4a3dfc524576c64a875cce1cb5a088f, type: 3}
   m_PrefabInstance: {fileID: 1436673849}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1536584754
@@ -2334,37 +2381,27 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1319000853471084233, guid: e4a3dfc524576c64a875cce1cb5a088f, type: 3}
-      propertyPath: m_SortingLayerID
-      value: -1476121015
-      objectReference: {fileID: 0}
     - target: {fileID: 2047182264870903023, guid: e4a3dfc524576c64a875cce1cb5a088f, type: 3}
       propertyPath: m_PresetInfoIsWorld
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5355523595133072020, guid: e4a3dfc524576c64a875cce1cb5a088f, type: 3}
       propertyPath: _data._json
-      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"LoCards","value":{"$content":[{"Name":"test1","Description":null,"Image":null,"Costs":[],"CardType":"Boost","Playable":false},{"Name":"test2","Description":null,"Image":null,"Costs":[],"CardType":"Boost","Playable":false},{"Name":"test3","Description":null,"Image":null,"Costs":[],"CardType":"Boost","Playable":false},{"Name":"test4","Description":null,"Image":null,"Costs":[],"CardType":"Boost","Playable":false},{"Name":"test5","Description":null,"Image":null,"Costs":[],"CardType":"Boost","Playable":false}],"$type":"System.Collections.Generic.List`1[[Card,
-        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[Card,
-        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"TextNumberCards","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"ButtonDraw","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"ButtonShuffle","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"CardManager","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"LoCards","value":{"$content":[{"$content":0,"$type":"UnityEngine.Object"},{"$content":1,"$type":"UnityEngine.Object"},{"$content":2,"$type":"UnityEngine.Object"},{"$content":3,"$type":"UnityEngine.Object"},{"$content":4,"$type":"UnityEngine.Object"}],"$type":"Unity.VisualScripting.AotList"},"typeHandle":{"Identification":"Unity.VisualScripting.AotList,
+        Unity.VisualScripting.Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"TextNumberCards","value":{"$content":5,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"ButtonDraw","value":{"$content":6,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"ButtonShuffle","value":{"$content":7,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"PlayerController","value":{"$content":8,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 5355523595133072020, guid: e4a3dfc524576c64a875cce1cb5a088f, type: 3}
       propertyPath: _data._objectReferences.Array.size
-      value: 2
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 5355523595133072020, guid: e4a3dfc524576c64a875cce1cb5a088f, type: 3}
-      propertyPath: '_data._objectReferences.Array.data[1]'
+      propertyPath: '_data._objectReferences.Array.data[8]'
       value: 
       objectReference: {fileID: 1229783949}
-    - target: {fileID: 5355523595133072020, guid: e4a3dfc524576c64a875cce1cb5a088f, type: 3}
-      propertyPath: '_data._objectReferences.Array.data[2]'
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 5731061721973783956, guid: e4a3dfc524576c64a875cce1cb5a088f, type: 3}
       propertyPath: m_Name
       value: DiscardPile
@@ -2461,10 +2498,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6269460278709270552, guid: e4a3dfc524576c64a875cce1cb5a088f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7531291402650789408, guid: e4a3dfc524576c64a875cce1cb5a088f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects:
-    - {fileID: 7531291402650789408, guid: e4a3dfc524576c64a875cce1cb5a088f, type: 3}
-    - {fileID: 6269460278709270552, guid: e4a3dfc524576c64a875cce1cb5a088f, type: 3}
+    m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e4a3dfc524576c64a875cce1cb5a088f, type: 3}
@@ -2696,6 +2739,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8851348975518745105, guid: 7cbbf4e73fea8b9468d0da7a40cadea2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9216375596059464881, guid: 7cbbf4e73fea8b9468d0da7a40cadea2, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9216375596059464881, guid: 7cbbf4e73fea8b9468d0da7a40cadea2, type: 3}
+      propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
