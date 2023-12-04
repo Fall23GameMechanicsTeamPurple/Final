@@ -215,6 +215,18 @@ PrefabInstance:
       propertyPath: m_margin.z
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 1158324220744161255, guid: 9c27c4ba212c05f41aa261bf70c6582f, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 920757a86f0585b4c8e6e33f564cf04a, type: 2}
+    - target: {fileID: 1158324220744161255, guid: 9c27c4ba212c05f41aa261bf70c6582f, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 1613295612601682375, guid: 920757a86f0585b4c8e6e33f564cf04a, type: 2}
+    - target: {fileID: 1158324220744161255, guid: 9c27c4ba212c05f41aa261bf70c6582f, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1207089892448339381, guid: 9c27c4ba212c05f41aa261bf70c6582f, type: 3}
       propertyPath: m_Name
       value: CardDecor (2)
@@ -385,6 +397,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5344711060513425980, guid: 9c27c4ba212c05f41aa261bf70c6582f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5409452732972008400, guid: 9c27c4ba212c05f41aa261bf70c6582f, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 920757a86f0585b4c8e6e33f564cf04a, type: 2}
+    - target: {fileID: 5409452732972008400, guid: 9c27c4ba212c05f41aa261bf70c6582f, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 1613295612601682375, guid: 920757a86f0585b4c8e6e33f564cf04a, type: 2}
+    - target: {fileID: 5409452732972008400, guid: 9c27c4ba212c05f41aa261bf70c6582f, type: 3}
+      propertyPath: m_hasFontAssetChanged
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5790581560796229206, guid: 9c27c4ba212c05f41aa261bf70c6582f, type: 3}
