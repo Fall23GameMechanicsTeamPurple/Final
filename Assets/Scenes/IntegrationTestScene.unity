@@ -227,6 +227,11 @@ MonoBehaviour:
   m_Area: 0
   m_IgnoreFromBuild: 0
   m_AffectedAgents: ffffffff
+--- !u!1 &101432036 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2252190498954490232, guid: 7cbbf4e73fea8b9468d0da7a40cadea2, type: 3}
+  m_PrefabInstance: {fileID: 3224747178736823207}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &274178442
 GameObject:
   m_ObjectHideFlags: 0
@@ -982,6 +987,11 @@ PolygonCollider2D:
       - {x: 0.925, y: -0.275}
       - {x: 0.925, y: 0.475}
   m_UseDelaunayMesh: 0
+--- !u!1 &740067844 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2147090005516519404, guid: 7cbbf4e73fea8b9468d0da7a40cadea2, type: 3}
+  m_PrefabInstance: {fileID: 3224747178736823207}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &874387698
 GameObject:
   m_ObjectHideFlags: 0
@@ -1641,6 +1651,11 @@ PolygonCollider2D:
       - {x: 2.82, y: -7.68}
       - {x: 3.54, y: -7.08}
   m_UseDelaunayMesh: 0
+--- !u!1 &1119494622 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5776531554338596274, guid: 7cbbf4e73fea8b9468d0da7a40cadea2, type: 3}
+  m_PrefabInstance: {fileID: 3224747178736823207}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1229783948
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1651,7 +1666,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1234455581000738759, guid: 295ef1af49530264ebd327fb9cf2b8a6, type: 3}
       propertyPath: m_Name
-      value: CardManager
+      value: PlayerController
       objectReference: {fileID: 0}
     - target: {fileID: 3802870454468478801, guid: 295ef1af49530264ebd327fb9cf2b8a6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1694,13 +1709,29 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4109454265245240345, guid: 295ef1af49530264ebd327fb9cf2b8a6, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"CardPrefab","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"CanPlay","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"CardLeftMostPosition","value":{"x":-15.0,"y":-19.0,"$type":"UnityEngine.Vector2"},"typeHandle":{"Identification":"UnityEngine.Vector2,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"CardRightMostPosition","value":{"x":15.0,"y":-19.0,"$type":"UnityEngine.Vector2"},"typeHandle":{"Identification":"UnityEngine.Vector2,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"CardsPlayLimitEachTurn","value":{"$content":3,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"CardsDrawnEachTurn","value":{"$content":5,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"TextNumCardsPlayed","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"ButtonEndTurn","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4109454265245240345, guid: 295ef1af49530264ebd327fb9cf2b8a6, type: 3}
+      propertyPath: _data._objectReferences.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4109454265245240345, guid: 295ef1af49530264ebd327fb9cf2b8a6, type: 3}
       propertyPath: '_data._objectReferences.Array.data[1]'
       value: 
-      objectReference: {fileID: 1436673850}
+      objectReference: {fileID: 1119494622}
     - target: {fileID: 4109454265245240345, guid: 295ef1af49530264ebd327fb9cf2b8a6, type: 3}
       propertyPath: '_data._objectReferences.Array.data[2]'
       value: 
-      objectReference: {fileID: 2053222911}
+      objectReference: {fileID: 101432036}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1766,15 +1797,16 @@ PrefabInstance:
     - target: {fileID: 7028551257630340749, guid: e320b97dda0363d48a3a1921134a0afd, type: 3}
       propertyPath: _data._json
       value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"CardsDrawnEachTurn","value":{"$content":3,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"CardManager","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"PlayerController","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"TowerController","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"EnemyController","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"DrawPile","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"TextTurnInfo","value":{"$content":4,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 7028551257630340749, guid: e320b97dda0363d48a3a1921134a0afd, type: 3}
       propertyPath: _data._objectReferences.Array.size
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7028551257630340749, guid: e320b97dda0363d48a3a1921134a0afd, type: 3}
       propertyPath: '_data._objectReferences.Array.data[0]'
@@ -1792,6 +1824,10 @@ PrefabInstance:
       propertyPath: '_data._objectReferences.Array.data[3]'
       value: 
       objectReference: {fileID: 1436673850}
+    - target: {fileID: 7028551257630340749, guid: e320b97dda0363d48a3a1921134a0afd, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[4]'
+      value: 
+      objectReference: {fileID: 740067844}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2530,6 +2566,143 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 526568d8c0109a9419de3d550ea76ad3, type: 3}
+--- !u!1001 &3224747178736823207
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1482845766585784640, guid: 7cbbf4e73fea8b9468d0da7a40cadea2, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1482845766585784640, guid: 7cbbf4e73fea8b9468d0da7a40cadea2, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1482845766585784640, guid: 7cbbf4e73fea8b9468d0da7a40cadea2, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1482845766585784640, guid: 7cbbf4e73fea8b9468d0da7a40cadea2, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3504042392988857163, guid: 7cbbf4e73fea8b9468d0da7a40cadea2, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3504042392988857163, guid: 7cbbf4e73fea8b9468d0da7a40cadea2, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3504042392988857163, guid: 7cbbf4e73fea8b9468d0da7a40cadea2, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 3504042392988857163, guid: 7cbbf4e73fea8b9468d0da7a40cadea2, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5475740527731277036, guid: 7cbbf4e73fea8b9468d0da7a40cadea2, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5475740527731277036, guid: 7cbbf4e73fea8b9468d0da7a40cadea2, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6085340750628591001, guid: 7cbbf4e73fea8b9468d0da7a40cadea2, type: 3}
+      propertyPath: m_Name
+      value: Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851348975518745105, guid: 7cbbf4e73fea8b9468d0da7a40cadea2, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851348975518745105, guid: 7cbbf4e73fea8b9468d0da7a40cadea2, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851348975518745105, guid: 7cbbf4e73fea8b9468d0da7a40cadea2, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851348975518745105, guid: 7cbbf4e73fea8b9468d0da7a40cadea2, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851348975518745105, guid: 7cbbf4e73fea8b9468d0da7a40cadea2, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851348975518745105, guid: 7cbbf4e73fea8b9468d0da7a40cadea2, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851348975518745105, guid: 7cbbf4e73fea8b9468d0da7a40cadea2, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851348975518745105, guid: 7cbbf4e73fea8b9468d0da7a40cadea2, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851348975518745105, guid: 7cbbf4e73fea8b9468d0da7a40cadea2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851348975518745105, guid: 7cbbf4e73fea8b9468d0da7a40cadea2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851348975518745105, guid: 7cbbf4e73fea8b9468d0da7a40cadea2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851348975518745105, guid: 7cbbf4e73fea8b9468d0da7a40cadea2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851348975518745105, guid: 7cbbf4e73fea8b9468d0da7a40cadea2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851348975518745105, guid: 7cbbf4e73fea8b9468d0da7a40cadea2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851348975518745105, guid: 7cbbf4e73fea8b9468d0da7a40cadea2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851348975518745105, guid: 7cbbf4e73fea8b9468d0da7a40cadea2, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851348975518745105, guid: 7cbbf4e73fea8b9468d0da7a40cadea2, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851348975518745105, guid: 7cbbf4e73fea8b9468d0da7a40cadea2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851348975518745105, guid: 7cbbf4e73fea8b9468d0da7a40cadea2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851348975518745105, guid: 7cbbf4e73fea8b9468d0da7a40cadea2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7cbbf4e73fea8b9468d0da7a40cadea2, type: 3}
 --- !u!1001 &7831949302972740140
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2683,3 +2856,4 @@ SceneRoots:
   - {fileID: 8470400775954238984}
   - {fileID: 492459395}
   - {fileID: 274178445}
+  - {fileID: 3224747178736823207}
