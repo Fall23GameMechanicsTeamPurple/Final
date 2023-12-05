@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 8426813376932611516}
   - component: {fileID: 337293407655358519}
   - component: {fileID: 5766448500378160130}
+  - component: {fileID: 6527801241678202651}
   m_Layer: 0
   m_Name: Player_Base
   m_TagString: Obstacle
@@ -225,3 +226,15 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: b964ceafc0384154eb9236cd986ba4ae, type: 2}
+--- !u!114 &6527801241678202651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6337491429484170948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d830ae8d833398488d6ad27ce40def3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
