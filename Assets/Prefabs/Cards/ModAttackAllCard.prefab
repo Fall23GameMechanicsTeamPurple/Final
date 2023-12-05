@@ -166,7 +166,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _data:
     _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"CardInfo","value":{"Name":"Attack-All
-      Mod","Description":null,"Image":null,"Costs":[],"CardType":"Boost","Playable":false,"$type":"Card"},"typeHandle":{"Identification":"Card,
+      Mod","Description":"<b><color=blue>Game changing</color></b><br>Modify a turret
+      to shoot multiple crystals to all enemies in range.","Image":null,"Costs":[],"CardType":"Boost","Playable":false,"$type":"Card"},"typeHandle":{"Identification":"Card,
       Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"CardPrefab","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"PlayerController","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"TextCardName","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,

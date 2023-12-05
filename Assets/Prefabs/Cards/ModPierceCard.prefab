@@ -88,7 +88,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 1
+  m_PresetInfoIsWorld: 0
 --- !u!114 &2012189967283252652
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -166,7 +166,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _data:
     _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"CardInfo","value":{"Name":"Pierce
-      Mod","Description":null,"Image":null,"Costs":[],"CardType":"Boost","Playable":false,"$type":"Card"},"typeHandle":{"Identification":"Card,
+      Mod","Description":"Modify a turret to shoot hardened crystals that pierce
+      enemies 1 time. Can stack.","Image":null,"Costs":[],"CardType":"Boost","Playable":false,"$type":"Card"},"typeHandle":{"Identification":"Card,
       Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"CardPrefab","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"PlayerController","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"TextCardName","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
@@ -221,6 +222,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 531301326552798806}
     m_Modifications:
+    - target: {fileID: 1158324220744161255, guid: 9c27c4ba212c05f41aa261bf70c6582f, type: 3}
+      propertyPath: m_text
+      value: 'Description
+
+        Description
+
+        Description
+
+        Description'
+      objectReference: {fileID: 0}
     - target: {fileID: 1158324220744161255, guid: 9c27c4ba212c05f41aa261bf70c6582f, type: 3}
       propertyPath: m_margin.w
       value: 5

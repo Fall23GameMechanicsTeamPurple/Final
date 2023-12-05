@@ -88,7 +88,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 1
+  m_PresetInfoIsWorld: 0
 --- !u!114 &2012189967283252652
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -166,7 +166,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _data:
     _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"CardInfo","value":{"Name":"Pierce
-      Turret","Description":null,"Image":null,"Costs":[],"CardType":"Boost","Playable":false,"$type":"Card"},"typeHandle":{"Identification":"Card,
+      Turret","Description":"A powerful turret that pierces infinitely, though discards
+      a card on play.","Image":null,"Costs":[],"CardType":"Boost","Playable":false,"$type":"Card"},"typeHandle":{"Identification":"Card,
       Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"CardPrefab","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"PlayerController","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"TextCardName","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
@@ -289,13 +290,61 @@ PrefabInstance:
       propertyPath: m_Name
       value: CardDecor (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2859385921492814331, guid: 9c27c4ba212c05f41aa261bf70c6582f, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 6304826840174917774, guid: 91997ad0bd9c0c242a3f18becac0aecf, type: 3}
+    - target: {fileID: 2859385921492814331, guid: 9c27c4ba212c05f41aa261bf70c6582f, type: 3}
+      propertyPath: m_Color.b
+      value: 0.85882354
+      objectReference: {fileID: 0}
+    - target: {fileID: 2859385921492814331, guid: 9c27c4ba212c05f41aa261bf70c6582f, type: 3}
+      propertyPath: m_Color.g
+      value: 0.8392157
+      objectReference: {fileID: 0}
+    - target: {fileID: 2859385921492814331, guid: 9c27c4ba212c05f41aa261bf70c6582f, type: 3}
+      propertyPath: m_Color.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3074632295970910989, guid: 9c27c4ba212c05f41aa261bf70c6582f, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3074632295970910989, guid: 9c27c4ba212c05f41aa261bf70c6582f, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3074632295970910989, guid: 9c27c4ba212c05f41aa261bf70c6582f, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3074632295970910989, guid: 9c27c4ba212c05f41aa261bf70c6582f, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3074632295970910989, guid: 9c27c4ba212c05f41aa261bf70c6582f, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 176
+      objectReference: {fileID: 0}
+    - target: {fileID: 3074632295970910989, guid: 9c27c4ba212c05f41aa261bf70c6582f, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 158
+      objectReference: {fileID: 0}
+    - target: {fileID: 3074632295970910989, guid: 9c27c4ba212c05f41aa261bf70c6582f, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3074632295970910989, guid: 9c27c4ba212c05f41aa261bf70c6582f, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.3
+      objectReference: {fileID: 0}
     - target: {fileID: 3074632295970910989, guid: 9c27c4ba212c05f41aa261bf70c6582f, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0.1000061
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3074632295970910989, guid: 9c27c4ba212c05f41aa261bf70c6582f, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.5182266
+      value: 0.0000036358833
       objectReference: {fileID: 0}
     - target: {fileID: 3148990498187749488, guid: 9c27c4ba212c05f41aa261bf70c6582f, type: 3}
       propertyPath: m_AnchorMax.x

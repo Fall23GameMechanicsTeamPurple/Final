@@ -88,7 +88,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 1
+  m_PresetInfoIsWorld: 0
 --- !u!114 &2012189967283252652
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -166,7 +166,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _data:
     _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"CardInfo","value":{"Name":"Poison
-      Mod","Description":null,"Image":null,"Costs":[],"CardType":"Boost","Playable":false,"$type":"Card"},"typeHandle":{"Identification":"Card,
+      Mod","Description":"Modify a turret to shoot radioactive crystals that damage
+      enemies over time.","Image":null,"Costs":[],"CardType":"Boost","Playable":false,"$type":"Card"},"typeHandle":{"Identification":"Card,
       Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"CardPrefab","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"PlayerController","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"TextCardName","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
