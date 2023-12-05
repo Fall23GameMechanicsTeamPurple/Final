@@ -98,7 +98,7 @@ GameObject:
   - component: {fileID: 2718790300078309087}
   - component: {fileID: -444391762553301625}
   m_Layer: 0
-  m_Name: TurretPlacementPreview
+  m_Name: SniperTurretPlacementPreview
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -163,7 +163,7 @@ SpriteRenderer:
   m_SortingLayer: 7
   m_SortingOrder: 0
   m_Sprite: {fileID: 6304826840174917774, guid: 91997ad0bd9c0c242a3f18becac0aecf, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.8980392, b: 0.25882354, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -267,7 +267,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0.7, z: 0}
-  m_LocalScale: {x: 0.3685119, y: 0.8211, z: 1}
+  m_LocalScale: {x: 0.38216045, y: 0.8211, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3060944256509289130}
