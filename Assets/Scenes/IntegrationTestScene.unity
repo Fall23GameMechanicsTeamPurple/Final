@@ -1882,96 +1882,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5776531554338596274, guid: 7cbbf4e73fea8b9468d0da7a40cadea2, type: 3}
   m_PrefabInstance: {fileID: 3224747178736823207}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1229783948
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1234455581000738759, guid: 295ef1af49530264ebd327fb9cf2b8a6, type: 3}
-      propertyPath: m_Name
-      value: PlayerController
-      objectReference: {fileID: 0}
-    - target: {fileID: 3802870454468478801, guid: 295ef1af49530264ebd327fb9cf2b8a6, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3802870454468478801, guid: 295ef1af49530264ebd327fb9cf2b8a6, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3802870454468478801, guid: 295ef1af49530264ebd327fb9cf2b8a6, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3802870454468478801, guid: 295ef1af49530264ebd327fb9cf2b8a6, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3802870454468478801, guid: 295ef1af49530264ebd327fb9cf2b8a6, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3802870454468478801, guid: 295ef1af49530264ebd327fb9cf2b8a6, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3802870454468478801, guid: 295ef1af49530264ebd327fb9cf2b8a6, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3802870454468478801, guid: 295ef1af49530264ebd327fb9cf2b8a6, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3802870454468478801, guid: 295ef1af49530264ebd327fb9cf2b8a6, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3802870454468478801, guid: 295ef1af49530264ebd327fb9cf2b8a6, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4109454265245240345, guid: 295ef1af49530264ebd327fb9cf2b8a6, type: 3}
-      propertyPath: _data._json
-      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"CanPlay","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"CardLeftMostPosition","value":{"x":-15.0,"y":-19.0,"$type":"UnityEngine.Vector2"},"typeHandle":{"Identification":"UnityEngine.Vector2,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"CardRightMostPosition","value":{"x":15.0,"y":-19.0,"$type":"UnityEngine.Vector2"},"typeHandle":{"Identification":"UnityEngine.Vector2,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"CardsPlayLimitEachTurn","value":{"$content":3,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"CardsDrawnEachTurn","value":{"$content":5,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"TextNumCardsPlayed","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"ButtonEndTurn","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"SpawnPoints","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-      objectReference: {fileID: 0}
-    - target: {fileID: 4109454265245240345, guid: 295ef1af49530264ebd327fb9cf2b8a6, type: 3}
-      propertyPath: _data._objectReferences.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4109454265245240345, guid: 295ef1af49530264ebd327fb9cf2b8a6, type: 3}
-      propertyPath: '_data._objectReferences.Array.data[0]'
-      value: 
-      objectReference: {fileID: 1119494622}
-    - target: {fileID: 4109454265245240345, guid: 295ef1af49530264ebd327fb9cf2b8a6, type: 3}
-      propertyPath: '_data._objectReferences.Array.data[1]'
-      value: 
-      objectReference: {fileID: 101432036}
-    - target: {fileID: 4109454265245240345, guid: 295ef1af49530264ebd327fb9cf2b8a6, type: 3}
-      propertyPath: '_data._objectReferences.Array.data[2]'
-      value: 
-      objectReference: {fileID: 8030547822623010955}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 295ef1af49530264ebd327fb9cf2b8a6, type: 3}
---- !u!1 &1229783949 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1234455581000738759, guid: 295ef1af49530264ebd327fb9cf2b8a6, type: 3}
-  m_PrefabInstance: {fileID: 1229783948}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1333628250
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2041,7 +1951,7 @@ PrefabInstance:
     - target: {fileID: 7028551257630340749, guid: e320b97dda0363d48a3a1921134a0afd, type: 3}
       propertyPath: '_data._objectReferences.Array.data[0]'
       value: 
-      objectReference: {fileID: 1229783949}
+      objectReference: {fileID: 1234455579813028939}
     - target: {fileID: 7028551257630340749, guid: e320b97dda0363d48a3a1921134a0afd, type: 3}
       propertyPath: '_data._objectReferences.Array.data[1]'
       value: 
@@ -2136,7 +2046,7 @@ PrefabInstance:
     - target: {fileID: 5355523595133072020, guid: e4a3dfc524576c64a875cce1cb5a088f, type: 3}
       propertyPath: '_data._objectReferences.Array.data[8]'
       value: 
-      objectReference: {fileID: 1229783949}
+      objectReference: {fileID: 1234455579813028939}
     - target: {fileID: 5731061721973783956, guid: e4a3dfc524576c64a875cce1cb5a088f, type: 3}
       propertyPath: m_Name
       value: DrawPIle
@@ -2815,7 +2725,7 @@ PrefabInstance:
     - target: {fileID: 5355523595133072020, guid: e4a3dfc524576c64a875cce1cb5a088f, type: 3}
       propertyPath: '_data._objectReferences.Array.data[8]'
       value: 
-      objectReference: {fileID: 1229783949}
+      objectReference: {fileID: 1234455579813028939}
     - target: {fileID: 5731061721973783956, guid: e4a3dfc524576c64a875cce1cb5a088f, type: 3}
       propertyPath: m_Name
       value: DiscardPile
@@ -2953,6 +2863,11 @@ GameObject:
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6268841228127562637, guid: e4a3dfc524576c64a875cce1cb5a088f, type: 3}
   m_PrefabInstance: {fileID: 2053222910}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1234455579813028939 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 951361774318319903, guid: 30bdd38f50a87f447acb19606e428e3a, type: 3}
+  m_PrefabInstance: {fileID: 7094154713344806931}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2241569863161217338
 PrefabInstance:
@@ -3563,6 +3478,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7896520548091293387, guid: 7cbbf4e73fea8b9468d0da7a40cadea2, type: 3}
+      propertyPath: m_Name
+      value: TextWaveInfo
+      objectReference: {fileID: 0}
     - target: {fileID: 8306015208124636866, guid: 7cbbf4e73fea8b9468d0da7a40cadea2, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -3716,6 +3635,101 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7cbbf4e73fea8b9468d0da7a40cadea2, type: 3}
+--- !u!1 &3224747178736823208 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7896520548091293387, guid: 7cbbf4e73fea8b9468d0da7a40cadea2, type: 3}
+  m_PrefabInstance: {fileID: 3224747178736823207}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7094154713344806931
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 951361774318319903, guid: 30bdd38f50a87f447acb19606e428e3a, type: 3}
+      propertyPath: m_Name
+      value: PlayerController
+      objectReference: {fileID: 0}
+    - target: {fileID: 2159603499599694161, guid: 30bdd38f50a87f447acb19606e428e3a, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"CanPlay","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"CardLeftMostPosition","value":{"x":-15.0,"y":-23.0,"$type":"UnityEngine.Vector2"},"typeHandle":{"Identification":"UnityEngine.Vector2,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"CardRightMostPosition","value":{"x":15.0,"y":-23.0,"$type":"UnityEngine.Vector2"},"typeHandle":{"Identification":"UnityEngine.Vector2,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"CardsPlayLimitEachTurn","value":{"$content":3,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"CardsDrawnEachTurn","value":{"$content":5,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"TextNumCardsPlayed","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"ButtonEndTurn","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"SpawnPoints","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"TextWaveInfo","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2159603499599694161, guid: 30bdd38f50a87f447acb19606e428e3a, type: 3}
+      propertyPath: _data._objectReferences.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2159603499599694161, guid: 30bdd38f50a87f447acb19606e428e3a, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[0]'
+      value: 
+      objectReference: {fileID: 1119494622}
+    - target: {fileID: 2159603499599694161, guid: 30bdd38f50a87f447acb19606e428e3a, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[1]'
+      value: 
+      objectReference: {fileID: 101432036}
+    - target: {fileID: 2159603499599694161, guid: 30bdd38f50a87f447acb19606e428e3a, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[2]'
+      value: 
+      objectReference: {fileID: 8030547822623010955}
+    - target: {fileID: 2159603499599694161, guid: 30bdd38f50a87f447acb19606e428e3a, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[3]'
+      value: 
+      objectReference: {fileID: 3224747178736823208}
+    - target: {fileID: 4443931171692873845, guid: 30bdd38f50a87f447acb19606e428e3a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4443931171692873845, guid: 30bdd38f50a87f447acb19606e428e3a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4443931171692873845, guid: 30bdd38f50a87f447acb19606e428e3a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4443931171692873845, guid: 30bdd38f50a87f447acb19606e428e3a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4443931171692873845, guid: 30bdd38f50a87f447acb19606e428e3a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4443931171692873845, guid: 30bdd38f50a87f447acb19606e428e3a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4443931171692873845, guid: 30bdd38f50a87f447acb19606e428e3a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4443931171692873845, guid: 30bdd38f50a87f447acb19606e428e3a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4443931171692873845, guid: 30bdd38f50a87f447acb19606e428e3a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4443931171692873845, guid: 30bdd38f50a87f447acb19606e428e3a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 30bdd38f50a87f447acb19606e428e3a, type: 3}
 --- !u!1001 &7831949302972740140
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3864,7 +3878,7 @@ SceneRoots:
   - {fileID: 1436673849}
   - {fileID: 2053222910}
   - {fileID: 1333628250}
-  - {fileID: 1229783948}
+  - {fileID: 7094154713344806931}
   - {fileID: 992991340}
   - {fileID: 8470400775954238984}
   - {fileID: 492459395}
