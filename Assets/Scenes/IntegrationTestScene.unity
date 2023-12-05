@@ -622,83 +622,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 0
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: Draw Pile
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 920757a86f0585b4c8e6e33f564cf04a, type: 2}
-  m_sharedMaterial: {fileID: 1613295612601682375, guid: 920757a86f0585b4c8e6e33f564cf04a, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4285160817
-  m_fontColor: {r: 0.4433962, g: 0.36601102, b: 0.41760114, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 32
-  m_fontSizeBase: 32
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &470999871
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -991,6 +914,16 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 2147090005516519404, guid: 7cbbf4e73fea8b9468d0da7a40cadea2, type: 3}
   m_PrefabInstance: {fileID: 3224747178736823207}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &792114304 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6269460278709270552, guid: e4a3dfc524576c64a875cce1cb5a088f, type: 3}
+  m_PrefabInstance: {fileID: 1436673849}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &828412868 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 513100388748008122, guid: e4a3dfc524576c64a875cce1cb5a088f, type: 3}
+  m_PrefabInstance: {fileID: 2053222910}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &874387698
 GameObject:
   m_ObjectHideFlags: 0
@@ -1272,6 +1205,11 @@ MonoBehaviour:
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 980912121}
+--- !u!1 &985460712 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6269460278709270552, guid: e4a3dfc524576c64a875cce1cb5a088f, type: 3}
+  m_PrefabInstance: {fileID: 2053222910}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &992991340
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1884,16 +1822,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5355523595133072020, guid: e4a3dfc524576c64a875cce1cb5a088f, type: 3}
       propertyPath: _data._json
-      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"LoCards","value":{"$content":[{"$content":0,"$type":"UnityEngine.Object"},{"$content":1,"$type":"UnityEngine.Object"},{"$content":2,"$type":"UnityEngine.Object"},{"$content":3,"$type":"UnityEngine.Object"},{"$content":4,"$type":"UnityEngine.Object"}],"$type":"Unity.VisualScripting.AotList"},"typeHandle":{"Identification":"Unity.VisualScripting.AotList,
-        Unity.VisualScripting.Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"TextNumberCards","value":{"$content":5,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"ButtonDraw","value":{"$content":6,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"ButtonShuffle","value":{"$content":7,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"CardManager","value":{"$content":8,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"LoCards","value":{"$content":[{"$content":0,"$type":"UnityEngine.Object"},{"$content":1,"$type":"UnityEngine.Object"},{"$content":2,"$type":"UnityEngine.Object"},{"$content":3,"$type":"UnityEngine.Object"},{"$content":4,"$type":"UnityEngine.Object"},{"$content":5,"$type":"UnityEngine.Object"},{"$content":6,"$type":"UnityEngine.Object"},{"$content":7,"$type":"UnityEngine.Object"},{"$content":8,"$type":"UnityEngine.Object"},{"$content":9,"$type":"UnityEngine.Object"},{"$content":10,"$type":"UnityEngine.Object"},{"$content":11,"$type":"UnityEngine.Object"}],"$type":"Unity.VisualScripting.AotList"},"typeHandle":{"Identification":"Unity.VisualScripting.AotList,
+        Unity.VisualScripting.Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"TextNumberCards","value":{"$content":12,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"ButtonDraw","value":{"$content":13,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"ButtonShuffle","value":{"$content":14,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"CardManager","value":{"$content":15,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 5355523595133072020, guid: e4a3dfc524576c64a875cce1cb5a088f, type: 3}
       propertyPath: _data._objectReferences.Array.size
-      value: 9
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 5355523595133072020, guid: e4a3dfc524576c64a875cce1cb5a088f, type: 3}
       propertyPath: '_data._objectReferences.Array.data[0]'
@@ -1918,13 +1856,45 @@ PrefabInstance:
     - target: {fileID: 5355523595133072020, guid: e4a3dfc524576c64a875cce1cb5a088f, type: 3}
       propertyPath: '_data._objectReferences.Array.data[5]'
       value: 
-      objectReference: {fileID: 1436673853}
+      objectReference: {fileID: 7590611864268705856, guid: fb013316a58c0b74e90bb3d27f0fe46f, type: 3}
     - target: {fileID: 5355523595133072020, guid: e4a3dfc524576c64a875cce1cb5a088f, type: 3}
       propertyPath: '_data._objectReferences.Array.data[6]'
       value: 
-      objectReference: {fileID: 1436673852}
+      objectReference: {fileID: 7590611864268705856, guid: 9c7b5ade4b91a1f47a0dea419f1e37f5, type: 3}
+    - target: {fileID: 5355523595133072020, guid: e4a3dfc524576c64a875cce1cb5a088f, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[7]'
+      value: 
+      objectReference: {fileID: 7590611864268705856, guid: 97a488e87a2efad4a8bbad23547c4480, type: 3}
     - target: {fileID: 5355523595133072020, guid: e4a3dfc524576c64a875cce1cb5a088f, type: 3}
       propertyPath: '_data._objectReferences.Array.data[8]'
+      value: 
+      objectReference: {fileID: 7590611864268705856, guid: 97a488e87a2efad4a8bbad23547c4480, type: 3}
+    - target: {fileID: 5355523595133072020, guid: e4a3dfc524576c64a875cce1cb5a088f, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[9]'
+      value: 
+      objectReference: {fileID: 7590611864268705856, guid: 97a488e87a2efad4a8bbad23547c4480, type: 3}
+    - target: {fileID: 5355523595133072020, guid: e4a3dfc524576c64a875cce1cb5a088f, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[10]'
+      value: 
+      objectReference: {fileID: 7590611864268705856, guid: e4947bafeb659ea408b229a209765a88, type: 3}
+    - target: {fileID: 5355523595133072020, guid: e4a3dfc524576c64a875cce1cb5a088f, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[11]'
+      value: 
+      objectReference: {fileID: 7590611864268705856, guid: 499a735980ac72b469c37f4912b7aaa0, type: 3}
+    - target: {fileID: 5355523595133072020, guid: e4a3dfc524576c64a875cce1cb5a088f, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[12]'
+      value: 
+      objectReference: {fileID: 1436673853}
+    - target: {fileID: 5355523595133072020, guid: e4a3dfc524576c64a875cce1cb5a088f, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[13]'
+      value: 
+      objectReference: {fileID: 1436673852}
+    - target: {fileID: 5355523595133072020, guid: e4a3dfc524576c64a875cce1cb5a088f, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[14]'
+      value: 
+      objectReference: {fileID: 792114304}
+    - target: {fileID: 5355523595133072020, guid: e4a3dfc524576c64a875cce1cb5a088f, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[15]'
       value: 
       objectReference: {fileID: 1234455579813028939}
     - target: {fileID: 5731061721973783956, guid: e4a3dfc524576c64a875cce1cb5a088f, type: 3}
@@ -2327,6 +2297,11 @@ PolygonCollider2D:
       - {x: -0.63, y: -2.53}
       - {x: -0.29, y: -2.55}
   m_UseDelaunayMesh: 0
+--- !u!1 &1733993701 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7531291402650789408, guid: e4a3dfc524576c64a875cce1cb5a088f, type: 3}
+  m_PrefabInstance: {fileID: 2053222910}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1811741290
 GameObject:
   m_ObjectHideFlags: 0
@@ -2391,83 +2366,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 0
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: Discard Pile
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 920757a86f0585b4c8e6e33f564cf04a, type: 2}
-  m_sharedMaterial: {fileID: 1613295612601682375, guid: 920757a86f0585b4c8e6e33f564cf04a, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4285160817
-  m_fontColor: {r: 0.4433962, g: 0.36601102, b: 0.41760114, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 28
-  m_fontSizeBase: 28
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1811741294
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2595,17 +2493,49 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5355523595133072020, guid: e4a3dfc524576c64a875cce1cb5a088f, type: 3}
       propertyPath: _data._json
-      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"LoCards","value":{"$content":[{"$content":0,"$type":"UnityEngine.Object"},{"$content":1,"$type":"UnityEngine.Object"},{"$content":2,"$type":"UnityEngine.Object"},{"$content":3,"$type":"UnityEngine.Object"},{"$content":4,"$type":"UnityEngine.Object"}],"$type":"Unity.VisualScripting.AotList"},"typeHandle":{"Identification":"Unity.VisualScripting.AotList,
-        Unity.VisualScripting.Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"TextNumberCards","value":{"$content":5,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"ButtonDraw","value":{"$content":6,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"ButtonShuffle","value":{"$content":7,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"PlayerController","value":{"$content":8,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"LoCards","value":{"$content":[],"$type":"Unity.VisualScripting.AotList"},"typeHandle":{"Identification":"Unity.VisualScripting.AotList,
+        Unity.VisualScripting.Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"TextNumberCards","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"ButtonDraw","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"ButtonShuffle","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"PlayerController","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 5355523595133072020, guid: e4a3dfc524576c64a875cce1cb5a088f, type: 3}
       propertyPath: _data._objectReferences.Array.size
-      value: 9
+      value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 5355523595133072020, guid: e4a3dfc524576c64a875cce1cb5a088f, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[0]'
+      value: 
+      objectReference: {fileID: 828412868}
+    - target: {fileID: 5355523595133072020, guid: e4a3dfc524576c64a875cce1cb5a088f, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[1]'
+      value: 
+      objectReference: {fileID: 1733993701}
+    - target: {fileID: 5355523595133072020, guid: e4a3dfc524576c64a875cce1cb5a088f, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[2]'
+      value: 
+      objectReference: {fileID: 985460712}
+    - target: {fileID: 5355523595133072020, guid: e4a3dfc524576c64a875cce1cb5a088f, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[3]'
+      value: 
+      objectReference: {fileID: 1234455579813028939}
+    - target: {fileID: 5355523595133072020, guid: e4a3dfc524576c64a875cce1cb5a088f, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[4]'
+      value: 
+      objectReference: {fileID: 1234455579813028939}
+    - target: {fileID: 5355523595133072020, guid: e4a3dfc524576c64a875cce1cb5a088f, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[5]'
+      value: 
+      objectReference: {fileID: 1234455579813028939}
+    - target: {fileID: 5355523595133072020, guid: e4a3dfc524576c64a875cce1cb5a088f, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[6]'
+      value: 
+      objectReference: {fileID: 1234455579813028939}
+    - target: {fileID: 5355523595133072020, guid: e4a3dfc524576c64a875cce1cb5a088f, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[7]'
+      value: 
+      objectReference: {fileID: 1234455579813028939}
     - target: {fileID: 5355523595133072020, guid: e4a3dfc524576c64a875cce1cb5a088f, type: 3}
       propertyPath: '_data._objectReferences.Array.data[8]'
       value: 
