@@ -22,7 +22,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6362078834339169140
 Transform:
   m_ObjectHideFlags: 0
@@ -102,7 +102,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 1
+  m_Speed: 10
   m_Acceleration: 2
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -176,9 +176,14 @@ MonoBehaviour:
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"refEnemyController","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Animator","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Animator,
       UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Pickaxe","value":{"$content":4,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"n_poison","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"poisoned","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"p_mul","value":{"$content":0.25,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"p_dmg","value":{"$content":0.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"p_turns","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
-    - {fileID: 4436997351836828257, guid: f398a79e224c86547bcc68ff6c221469, type: 3}
+    - {fileID: 6337491429484170948, guid: f398a79e224c86547bcc68ff6c221469, type: 3}
     - {fileID: 2949021327713668240, guid: 526568d8c0109a9419de3d550ea76ad3, type: 3}
     - {fileID: 1134748901843345278}
     - {fileID: 2765362400094235945}
@@ -430,11 +435,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3408108279502956423, guid: dcaf5440388cc4845943ee4a66ccc854, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3408108279502956423, guid: dcaf5440388cc4845943ee4a66ccc854, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4744077875987332487, guid: dcaf5440388cc4845943ee4a66ccc854, type: 3}
       propertyPath: m_Value
